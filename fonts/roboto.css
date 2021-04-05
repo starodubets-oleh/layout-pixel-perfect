@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('roboto_bold.eot');
+	src: url('roboto_bold.eot?#iefix') format('embedded-opentype'),
+		url('roboto_bold.woff2') format('woff2'),
+		url('roboto_bold.woff') format('woff'),
+		url('roboto_bold.ttf') format('truetype'),
+		url('roboto_bold.svg#roboto_bold') format('svg');
+}
+@font-face {
+	font-family: 'Roboto Medium';
+	src: url('roboto_medium.eot');
+	src: url('roboto_medium.eot?#iefix') format('embedded-opentype'),
+		url('roboto_medium.woff2') format('woff2'), 
+		url('roboto_medium.woff') format('woff'),
+		url('roboto_medium.ttf') format('truetype'),
+		url('roboto_medium.svg#roboto_medium') format('svg');
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('roboto_regular.eot');
+	src: url('fonts/roboto_regular.eot?#iefix') format('embedded-opentype'),
+		url('roboto_regular.woff2') format('woff2'), 
+		url('roboto_regular.woff') format('woff'),
+		url('roboto_regular.ttf') format('truetype'),
+		url('roboto_regular.svg#roboto_regular') format('svg');
+}
+@font-face {
+	font-family: 'GoodTimes';
+	src: url('GoodTimes.eot');
+	src: url('GoodTimes.ttf') format('truetype'),
+	url('GoodTimes.eot?#iefix') format('embedded-opentype');
+}

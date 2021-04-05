@@ -1,0 +1,221 @@
+$color-grey: #EEEFEF;
+$color-blue: #005AC3;
+$color-white: #fff;
+$color-green: #7AB931;
+
+
+.wrapper{
+  width: 1680px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-grey;
+  font-family: 'GoodTimes';
+  padding: 0 90px;
+  box-sizing: border-box;
+  height: 67px;
+  color: $color-blue;
+}
+
+.logo{
+  margin-bottom: 3px;
+}
+
+.nav{
+  width: 475px;
+  ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    margin-left: 79px;
+    li:nth-child(2){
+      margin-left: 8px;
+    }
+    li:nth-child(3){
+      margin-right: 3px;
+    }
+  }
+}
+
+.cart-wrap{
+  display: flex;
+  align-items: center;
+  .cart{
+    margin-right: 51px;
+  }
+  .call{
+    width: 145px;
+    font-family: 'Roboto';
+    margin-bottom: 3px;
+    a{
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $color-white;
+      background-color: $color-blue;
+      padding: 10px 37px;
+      box-sizing: border-box;
+      border-radius: 14px;
+    }
+  }
+}
+
+.main{
+  height: 100vh;
+  background-image: url(../img/bus.jpg);
+  background-repeat: no-repeat;
+  font-family: 'GoodTimes';
+  color: $color-white;
+  .lable{
+    position: relative;
+    width: 610px;
+    padding: 150px 0 0 143px;
+    box-sizing: border-box;
+    h1{
+      font-size: 47px;
+      line-height: 56px;
+      font-weight: 300;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 142px;
+      bottom: -64px;
+      background-color: $color-blue;
+      background: url('../img/down-arrow.png') no-repeat center;
+      background-size: contain;
+    }
+  }
+  .form{
+    width: 1270px;
+    height: 364px;
+    background-color: $color-blue;
+    opacity: 95%;
+    margin: 0 auto;
+    margin-top: 193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    .lable-form{
+      font-size: 27px;
+      line-height: 1;
+    }
+    .form-fields{
+      font-family: 'Roboto';
+      form{
+        margin-top: 6px;
+      }
+      input{
+        height: 33px;
+        padding: 0 7px;
+        box-sizing: border-box;
+      }
+    }
+    .fields-group{
+      width: 894px;
+      input::placeholder{
+        color: black;
+      }
+      .first-group{
+        width: 100%;
+        display: flex;
+        .years{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 274px;
+          input:first-child{
+            width: 115px;
+          }
+          input:last-child{
+            width: 117px;
+          }
+        }
+        div{
+          width: 270px;
+        }
+        div:nth-child(2){
+          margin-left: 40px;
+          width: 268px;
+        }
+        div:last-child{
+          margin-left: 42px;
+          width: 268px;
+        }
+        input{
+          width: 100%;
+        }
+      }
+      .second-group{
+        width: 100%;
+        display: flex;
+        margin-top: 38px;
+        input{
+          width: 100%;
+          padding: 0 10px;
+        }
+        div:first-child{
+          width: 271px;
+        }
+        div:nth-child(2){
+          margin-left: 41px;
+          width: 271px;
+          input{
+            padding: 0px 4px;
+          }
+        }
+        div:last-child{
+          margin-left: 38px;
+          width: 274px;
+        }
+      }
+      .third-group{
+        width: 100%;
+        margin-top: 40px;
+        input{
+          width: 100%;
+          padding: 0 11px;
+        }
+      }
+    }
+    .actions{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 28px;
+      button:first-child{
+        background: none;
+        border: none;
+        color: $color-white;
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 0 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid $color-white;
+        text-transform: uppercase;
+      }
+      button[type=submit]{
+        background-color: $color-green;
+        font-size: 16px;
+        padding: 13px 59px;
+        box-sizing: border-box;
+        border-radius: 18px;
+        text-transform: uppercase;
+        color: $color-white;
+        border: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+.wrapper {
+  width: 1680px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #EEEFEF;
+  font-family: 'GoodTimes';
+  padding: 0 90px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 67px;
+  color: #005AC3;
+}
+
+.logo {
+  margin-bottom: 3px;
+}
+
+.nav {
+  width: 475px;
+}
+
+.nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 14px;
+  margin-left: 79px;
+}
+
+.nav ul li:nth-child(2) {
+  margin-left: 8px;
+}
+
+.nav ul li:nth-child(3) {
+  margin-right: 3px;
+}
+
+.cart-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-wrap .cart {
+  margin-right: 51px;
+}
+
+.cart-wrap .call {
+  width: 145px;
+  font-family: 'Roboto';
+  margin-bottom: 3px;
+}
+
+.cart-wrap .call a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: #005AC3;
+  padding: 10px 37px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 14px;
+}
+
+.main {
+  height: 100vh;
+  background-image: url(../img/bus.jpg);
+  background-repeat: no-repeat;
+  font-family: 'GoodTimes';
+  color: #fff;
+}
+
+.main .lable {
+  position: relative;
+  width: 610px;
+  padding: 150px 0 0 143px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .lable h1 {
+  font-size: 47px;
+  line-height: 56px;
+  font-weight: 300;
+}
+
+.main .lable:after {
+  content: '';
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 142px;
+  bottom: -64px;
+  background-color: #005AC3;
+  background: url("../img/down-arrow.png") no-repeat center;
+  background-size: contain;
+}
+
+.main .form {
+  width: 1270px;
+  height: 364px;
+  background-color: #005AC3;
+  opacity: 95%;
+  margin: 0 auto;
+  margin-top: 193px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 0px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .form .lable-form {
+  font-size: 27px;
+  line-height: 1;
+}
+
+.main .form .form-fields {
+  font-family: 'Roboto';
+}
+
+.main .form .form-fields form {
+  margin-top: 6px;
+}
+
+.main .form .form-fields input {
+  height: 33px;
+  padding: 0 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .form .fields-group {
+  width: 894px;
+}
+
+.main .form .fields-group input::-webkit-input-placeholder {
+  color: black;
+}
+
+.main .form .fields-group input:-ms-input-placeholder {
+  color: black;
+}
+
+.main .form .fields-group input::-ms-input-placeholder {
+  color: black;
+}
+
+.main .form .fields-group input::placeholder {
+  color: black;
+}
+
+.main .form .fields-group .first-group {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .form .fields-group .first-group .years {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 274px;
+}
+
+.main .form .fields-group .first-group .years input:first-child {
+  width: 115px;
+}
+
+.main .form .fields-group .first-group .years input:last-child {
+  width: 117px;
+}
+
+.main .form .fields-group .first-group div {
+  width: 270px;
+}
+
+.main .form .fields-group .first-group div:nth-child(2) {
+  margin-left: 40px;
+  width: 268px;
+}
+
+.main .form .fields-group .first-group div:last-child {
+  margin-left: 42px;
+  width: 268px;
+}
+
+.main .form .fields-group .first-group input {
+  width: 100%;
+}
+
+.main .form .fields-group .second-group {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 38px;
+}
+
+.main .form .fields-group .second-group input {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.main .form .fields-group .second-group div:first-child {
+  width: 271px;
+}
+
+.main .form .fields-group .second-group div:nth-child(2) {
+  margin-left: 41px;
+  width: 271px;
+}
+
+.main .form .fields-group .second-group div:nth-child(2) input {
+  padding: 0px 4px;
+}
+
+.main .form .fields-group .second-group div:last-child {
+  margin-left: 38px;
+  width: 274px;
+}
+
+.main .form .fields-group .third-group {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.main .form .fields-group .third-group input {
+  width: 100%;
+  padding: 0 11px;
+}
+
+.main .form .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 28px;
+}
+
+.main .form .actions button:first-child {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 10px;
+  padding: 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid #fff;
+  text-transform: uppercase;
+}
+
+.main .form .actions button[type=submit] {
+  background-color: #7AB931;
+  font-size: 16px;
+  padding: 13px 59px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
